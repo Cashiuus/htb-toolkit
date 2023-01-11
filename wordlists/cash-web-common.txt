@@ -1,3 +1,4 @@
+flag.txt
 manager/
 manager/html
 db.php
@@ -6,6 +7,7 @@ login.php
 files.php
 uploads/
 content/
+jars/
 scripts/
 development/index.html
 development/env
@@ -4648,7 +4650,6 @@ zt
 ~webmaster
 ~www
 default.php
-index.php
 invocactf.php
 view.html.php
 helper.php
@@ -4675,7 +4676,6 @@ component.php
 navigation.php
 xoops_version.php
 functions.php
-login.php
 core.write_file.php
 core.rmdir.php
 core.rm_auto.php
@@ -5999,6 +5999,7 @@ adr_character.php
 adr_cell.php
 adr_battle_pvp.php
 adr_battle.php
+admin_ajax.php
 admin_menu.php
 add_link.php
 add_events.php
@@ -9658,7 +9659,6 @@ MainWiz.dwt.php
 Main.dwt.php
 MIME.php
 Login.php
-LogIn.php
 Log.php
 LocalSettings.php
 List.class.php
@@ -9787,3 +9787,5 @@ ADOdb.php
 file_logs.php
 README.txt
 LICENSE.txt
+config.xml
+autoload.php

