@@ -2,10 +2,11 @@
 ## =============================================================================
 # File:     install.sh
 # Author:   Cashiuus
-# Created:  31-May-2021     Revised:
+# Created:  31-May-2021     Revised: 21-Apr-2026
 #
 ##-[ Info ]---------------------------------------------------------------------
-# Purpose:  Describe script purpose
+# Purpose:  Do a bootstrap install of everything you need to start doing
+#           Hack The Box challenges and become a superpower.
 #
 #
 # Notes:
@@ -17,7 +18,7 @@
 ##-[ Copyright ]----------------------------------------------------------------
 #   MIT License ~ http://opensource.org/licenses/MIT
 ## =============================================================================
-__version__="0.0.1"
+__version__="0.0.2"
 __author__="Cashiuus"
 ## =======[ EDIT THESE SETTINGS ]======= ##
 
@@ -49,7 +50,7 @@ LOG_FILE="${APP_BASE}/debug.log"
 DEBUG=false
 DO_LOGGING=false
 
-CONFIG_HOME="${HOME}/.config/redcell"
+CONFIG_HOME="${HOME}/.config/htb-toolkit"
 
 
 
@@ -105,7 +106,7 @@ fi
 [[ ! -d "${CONFIG_HOME}" ]] && mkdir -p "${CONFIG_HOME}"
 
 
-cp -n "${APP_BASE}/config/nmap-thermo.xsl" "${CONFIG_HOME}/"
+# cp -n "${APP_BASE}/config/nmap-custom.xsl" "${CONFIG_HOME}/"
 
 
 
